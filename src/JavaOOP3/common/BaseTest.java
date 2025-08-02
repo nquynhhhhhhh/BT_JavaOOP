@@ -4,9 +4,9 @@ public class BaseTest{
 
 
     public static void createDriver() {
-        System.out.println("Browser");
-        System.out.println("Report");
-        System.out.println("Headless");
+        System.out.println("Browser: " + Constants.browser);
+        System.out.println("Report: " + Constants.report);
+        System.out.println("Headless: " + Constants.headless);
     }
 
     public static void closeDriver() {
